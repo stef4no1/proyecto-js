@@ -132,6 +132,10 @@ input[type="radio"]{
 .post button:hover{
     opacity: 0.9;
 }
+p{
+    padding-top: 10px;
+    text-align: center;
+}
 
 /*Sistema de filtrado*/
 [value="TODOS"]:checked ~ .posts .post[data-category]{
@@ -155,6 +159,7 @@ input[type="radio"]{
     background: purple;
     color: #fff;
 }
+/* Carrito */
 
 /* Mediaqueries */
 @media screen and (max-width: 1200px){
