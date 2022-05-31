@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <title>Cursos Arg - Cursos</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>Cursos<b>Arg</b></h1>
+            </div>
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li><a href="articulo.html"> <i class="fas fa-home"></i>Inicio</a></li>
+                        <li class="menu-selected"><a href="index.html" class="text-menu-selected"><i class="fab fa-youtube"></i>Cursos</a></li>
+                        <li><a href="articulo.html"><i class="fas fa-file-alt"></i>Blog</a></li>
+                        <li><a href="login.html"><i class="fa-solid fa-address-card"></i>Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <!--Portada-->
+    <div class="container-all" id="move-content">
+        <div class="blog-container-cover">
+            <div class="container-info-cover">
+                <h1>¡Unite a nuestra comunidad!</h1>
+                <p>Comprate algún curso y ya vas a estar dentro de nuestra hermosa comunidad de programadores.</p>
+            </div>
+        </div>
+        <!-- Barra de los cursos -->
+        <div class="container-post">
+            <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+            <input type="radio" id="HTML" name="categories" value="HTML">
+            <input type="radio" id="CSS" name="categories" value="CSS">
+            <input type="radio" id="JS" name="categories" value="JS">
+            <input type="radio" id="PHP" name="categories" value="PHP">
+            <input type="radio" id="NODEJS" name="categories" value="NODEJS">
+            <input type="radio" id="REACT" name="categories" value="REACT">
+            <div class="container-category">
+                <label for="TODOS">TODOS</label>
+                <label for="HTML">HTML</label>
+                <label for="CSS">CSS</label>
+                <label for="JS">JS</label>
+                <label for="PHP">PHP</label>
+                <label for="NODEJS">NODEJS</label>
+                <label for="REACT">REACT</label>
+            </div>
+            <!-- CARDS DE LOS CURSOS -->
+            <div class="posts">
+                <!-- PRIMER CURSO -->
+                <div class="post" data-category="HTML CSS">
+                    <div class="ctn-img">
+                        <img src="assets/html-css.jpg" alt="">
+                    </div>
+                    <h2>Curso HTML y CSS básico, crearas un e-commerce.</h2>
+                    <span>2 de febrero 2022 - 04:20 am</span>
+                    <ul class="ctn-tag">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <a href="articulo.html"><button>Agregar al carrito</button></a>
+                </div>
+                <!-- SEGUNDO CURSO -->
+                <div class="post" data-category="JS">
+                    <div class="ctn-img">
+                        <img src="assets/prueba.jpg" alt="">
+                    </div>
+                    <h2>Curso Javascript - master en JS</h2>
+                    <span>2 de febrero 2022 - 04:20 am</span>
+                    <ul class="ctn-tag">
+                        <li>JS</li>
+                    </ul>
+                    <a href="#"><button>Agregar al carrito</button></a>
+                </div>
+                <!-- TERCER CURSO -->
+                <div class="post" data-category="REACT">
+                    <div class="ctn-img">
+                        <img src="assets/html-css.jpg" alt="">
+                    </div>
+                    <h2>Curso REACT , desde hooks y mucho más</h2>
+                    <span>2 de febrero 2022 - 04:20 am</span>
+                    <ul class="ctn-tag">
+                        <li>REACT</li>
+                    </ul>
+                    <a href="#"><button>Agregar al carrito</button></a>
+                </div>
+                <!-- CUARTO CURSO -->
+                <div class="post" data-category="REACT HTML CSS JS">
+                    <div class="ctn-img">
+                        <img src="assets/prueba.jpg" alt="">
+                    </div>
+                    <h2>Front-end developed - Actualizado</h2>
+                    <span>2 de febrero 2022 - 04:20 am</span>
+                    <ul class="ctn-tag">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>REACT</li>
+                    </ul>
+                    <a href="#"><button>Agregar al carrito</button></a>
+                </div>
+                <!-- QUINTO CURSO -->
+                <div class="post" data-category="PHP NODEJS">
+                    <div class="ctn-img">
+                        <img src="assets/html-css.jpg" alt="">
+                    </div>
+                    <h2>Como hacer un Crud con PHP y NODE</h2>
+                    <span>2 de febrero 2022 - 04:20 am</span>
+                    <ul class="ctn-tag">
+                        <li>PHP</li>
+                        <li>NODEJS</li>
+                    </ul>
+                    <a href="#"><button>Agregar al carrito</button></a>
+                </div>
+                <!-- SEXTO CURSO -->
+                <div class="post" data-category="NODEJS PHP">
+                    <div class="ctn-img">
+                        <img src="assets/html-css.jpg" alt="">
+                    </div>
+                    <h2>Crear una solicitud al front con NodeJS</h2>
+                    <span>2 de febrero 2022 - 04:20 am</span>
+                    <ul class="ctn-tag">
+                        <li>PHP</li>
+                        <li>NODEJS</li>
+                    </ul>
+                    <a href="#"><button>Agregar al carrito</button></a>
+                </div>
+                <!-- SEPTIMO CURSO -->
+                <div class="post" data-category="HTML JS NODEJS">
+                    <div class="ctn-img">
+                        <img src="assets/prueba.jpg" alt="">
+                    </div>
+                    <h2>Full Stack developed bootcamp</h2>
+                    <span>2 de febrero 2022 - 04:20 am</span>
+                    <ul class="ctn-tag">
+                        <li>HTML</li>
+                        <li>JS</li>
+                        <li>NODEJS</li>
+                    </ul>
+                    <a href="#"><button>Agregar al carrito</button></a>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="container-footer">	
+            <footer>
+                <div class="logo-footer">
+                    <img src="assets/Cursos ARG (1).png" alt="">
+                </div>
+                <!-- ICONOS REDES SOCIALES -->
+                <div class="redes-footer">
+                    <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in icon-redes-footer"></i></a>
+                    <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+                </div>
+                <hr>
+                <h4>&copy; 2022 - Stefano Straga - Todos los derechos reservados.</h4>
+            </footer>
+        </div>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/103edaa22e.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
