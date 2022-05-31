@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/articulos.css">
+    <link rel="stylesheet" href="css/login.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon (2).ico" type="image/x-icon">
+    <title>Cursos Arg - Login</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h2>Cursos<b>Arg</b></h2>
+            </div>
+            <div class="menu" id="show-menu">
+                <nav>
+                    <ul>
+                        <li><a href="articulo.html"> <i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="index.html" ><i class="fab fa-youtube"></i>Cursos</a></li>
+                        <li><a href="articulo.html"><i class="fas fa-file-alt"></i>Blog</a></li>
+                        <li class="menu-selected"><a href="login.html" class="text-menu-selected"><i class="fa-solid fa-address-card"></i>Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <!--Portada-->
+    <div class="container-all" id="move-content">
+        <div class="article-container-cover">
+            <div class="container-info-cover">
+                <h1>¡Registrate para ser parte de nosotros!</h1>
+                <p>Teniendo una cuenta en nuestra plataforma accedes a miles de beneficios.</p>
+            </div>
+        </div>
+        <!-- Acá va el login y register -->
+        <div class="container-content">
+            <article>
+                <h1>Llena el formulario de registro</h1>
+                <div class="container">
+                    <div class="forms-container">
+                        <div class="signin-signup">
+                            <!-- Formulario para el login -->
+                            <form action="" class="sign-in-form">
+                                <h2 class="title">Login</h2>
+                                <div class="input-field">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" name="usuario" autocomplete="username" placeholder="Username" required="yes">
+                                </div>
+                                <div class="input-field">
+                                    <i class="fas fa-lock"></i>
+                                    <input type="password" name="contraseña" autocomplete="current-password" placeholder="Password" id="id_password" required="yes">
+                                    <i class="far fa-eye" id="togglePassword"></i>
+                                </div>
+                                <input type="submit" value="Iniciar sesion" class="btn solid">
+                                <div class="social-media">
+                                    <a class="icon-mode" onclick="toggleTheme('dark');"><i class="fas fa-moon"></i></a>
+                                    <a class="icon-mode" onclick="toggleTheme('light');"><i class="fas fa-sun"></i></a>
+                                </div>
+                                <p class="text-mode">Cambia el tema</p>
+                            </form>
+                            <!-- Formulario register -->
+                            <form action="" class="sign-up-form">
+                                <h2 class="title">Registrate</h2>
+                                <div class="input-field">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" name="usuario" autocomplete="username" placeholder="Username" required="yes">
+                                </div>
+                                <div class="input-field">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" name="correo" autocomplete="email" placeholder="Email" required="yes">
+                                </div>
+                                <div class="input-field">
+                                    <i class="fas fa-lock"></i>
+                                    <input type="password" name="contraseña" autocomplete="current-password" placeholder="Password" id="id_reg" required="yes">
+                                    <i class="far fa-eye" id="toggleReg"></i>
+                                </div>
+                                <!-- Texto de los terminos y condiciones -->
+                                <label class="check">
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark">Acepto <a href="#">los terminos y condiciones</a></span>
+                                </label>
+                                <input type="submit" value="Crear cuenta" class="btn solid">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="panels-container">
+                        <div class="panel left-panel">
+                            <div class="content">
+                                <h3>No tenes cuenta?</h3>
+                                <p>Create una cuenta y acepta los terminos y condiciones</p>
+                                <button class="btn transparent" id="sign-up-btn">Registrate</button>
+                            </div>
+                            <img src="img/log.svg" class="image" alt="">
+                        </div>
+                        <div class="panel right-panel">
+                            <div class="content">
+                                <h3>Ya tenes una cuenta?</h3>
+                                <p>Logeate así podes acceder a los cursos</p>
+                                <button class="btn transparent" id="sign-in-btn">Iniciar sesion</button>
+                            </div>
+                            <img src="img/register.svg" class="image" alt="">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ASIDE -->
+            <div class="container-aside">	
+                <!-- PRIMER ASIDE -->
+                <aside>
+                    <img src="assets/4.png" alt="">
+                    <h2>Visita nuestro Blog</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quo, vel officiis voluptas minima at totam provident cupiditate ad consectetur!</p>
+                    <a href="articulo.html"><button>Ir</button></a>
+                </aside>
+                <!-- SEGUNDO ASIDE -->
+                <aside>
+                    <img src="assets/1.png" alt="">
+                    <h2>Visita Nuestros Cursos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quo, vel officiis voluptas minima at totam provident cupiditate ad consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor repellat ullam quos totam aliquid atque porro culpa vitae odit eum quidem molestias, explicabo ea accusamus sequi facere fuga alias doloremque. </p>
+                    <a href="index.html"><button>Ir</button></a>
+                </aside>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="container-footer">	
+            <footer>
+                <div class="logo-footer">
+                    <img src="assets/Cursos ARG (1).png" alt="">
+                </div>
+                <!-- ICONO REDES SOCIALES -->
+                <div class="redes-footer">
+                    <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in icon-redes-footer"></i></a>
+                    <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+                </div>
+                <hr>
+                <h4>&copy; 2022 - Stefano Straga - Todos los derechos reservados.</h4>
+            </footer>
+        </div>
+    </div>      
+    <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/103edaa22e.js" crossorigin="anonymous"></script>
+    <script src="js/login.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
