@@ -1,0 +1,22 @@
+nav ul li a{
+    text-decoration: none;
+}
+h2 {
+    margin-top: 5px;
+    font-size: 25px;
+}
+h3{
+    margin-top: 30px;
+}
+.card {
+    max-width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+img {
+    max-height: 300px;
+    max-width: 300px;
+}
